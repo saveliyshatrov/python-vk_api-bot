@@ -9,7 +9,7 @@ import json
 
 wikipedia.set_lang("RU")
 
-token = '7c7705436a9f0705bdb09d8734b9ef4817828f2781b3bd943c45dae1fe8e54fa97954f1dc5ec81a101d33'
+token = 'your token here'
 vk = vk_api.VkApi(token=token)
 class VK(object):
     def CreateButton(self, _type='text', label='название кнопки', color='secondary'):
