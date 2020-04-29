@@ -1,4 +1,3 @@
-# 7c7705436a9f0705bdb09d8734b9ef4817828f2781b3bd943c45dae1fe8e54fa97954f1dc5ec81a101d33
 from vk_api.longpoll import VkLongPoll, VkEventType
 import vk_api
 import random
@@ -11,7 +10,7 @@ print(str(datetime.datetime.now()).replace('-', '').replace(':', '').replace('.'
 
 wikipedia.set_lang("RU")
 
-token = '7c7705436a9f0705bdb09d8734b9ef4817828f2781b3bd943c45dae1fe8e54fa97954f1dc5ec81a101d33'
+token = 'YOUR_TOKEN_HERE'
 vk = vk_api.VkApi(token=token)
 class VK(object):
     def __init__(self):
